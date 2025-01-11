@@ -8,7 +8,7 @@
 if(PYTHON_VERSION)
     set(_python_version ${PYTHON_VERSION})
 else()
-    set(_python_version 2.7)
+    set(_python_version 3)
 endif()
 if(_python_version VERSION_EQUAL 3 AND CMAKE_VERSION VERSION_GREATER 3.15)
     # we also need the subversion
